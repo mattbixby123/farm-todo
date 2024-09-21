@@ -1,12 +1,12 @@
-## Frontend with React
+## Frontend with React (JavaScript)
 
-## Backend with Node and FastAPI
+## Backend with Node and FastAPI (python)
 
 ## MongoDB for data storage
 - if you wish to run this application on your local machine, fork and clone the repo down and create a mongodb cluster using node.js and put the URI in a .env file in the root of the project
 - then proceed to the docker compose cmd below
 
-## Docker used to run 3 main sections. 
+## Docker Compose -Containerize the entire applciation by running 3 main sections. 
 - The nginx reverse proxy that routes the request to the front and backend
 - the nodejs frontend application and
 - the python based backend application.
