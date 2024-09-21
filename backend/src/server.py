@@ -67,7 +67,7 @@ async def get_list(list_id: str) -> ToDoList:
     return await app.todo_dal.get_todo_list(list_id)
 
 
-@app.delete("/api.lists/{list_id}")
+@app.delete("/api/lists/{list_id}")
 async def delete_list(list_id: str) -> bool:
     return await app.todo_dal.delete_todo_list(list_id)
 
