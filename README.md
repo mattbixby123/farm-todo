@@ -1,3 +1,13 @@
+
+<div align="center">
+  <div>
+    <img src="https://shields.io/badge/react-black?logo=react&style=for-the-badge" alt="reactjs" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="javascript" />
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="docker" />
+    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="fastapi" />
+  </div>
+</div>
+
 ## Frontend with React (JavaScript)
 
 ## Backend with Node and FastAPI (python)
