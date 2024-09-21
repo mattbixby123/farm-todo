@@ -82,7 +82,7 @@ class NewItemResponse(BaseModel):
 
 
 @app.post(
-    "/api/list/{list_id}/items/",
+    "/api/lists/{list_id}/items/",
     status_code=status.HTTP_201_CREATED,
 
 )
