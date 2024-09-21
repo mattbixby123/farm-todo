@@ -25,3 +25,18 @@
 
 **use this cmd in the root directory of the project:**
 `docker compose up --build`
+
+
+### FastAPI dependency notes:
+**fastapi[all]** - the all includes add depenciencies like uvicorn for serving the app
+Comment
+Suggest edit
+Edit from here
+
+**motor** - asyncronous mongodb driver for python (we are using the SRV extra which adds support for mongodb's SRV connection strings)
+
+**beanie** - object document mapper for mongodb built ontop of motor (allows us to defgine our data models as python classes and provides an intuitive API for database opperations)
+
+**aiostream** - package provides tools for working with ayncronous streams which can be usefull when dealing with large datasets or real time data.
+
+(After initial setup you can use 'pip install -r requirments.txt' if fork/cloning repo)
